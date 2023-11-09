@@ -86,7 +86,7 @@ def ukr_spec_cleaners(text):
   text = convert_to_ascii(text.replace('и', 'І').replace('й','Y'))
   return text
   
- def ukr_non_trans_cleaners(text):
+def ukr_non_trans_cleaners(text):
   text = lowercase(text)
   text = collapse_whitespace(text)
   return text
